@@ -21,6 +21,7 @@ class App extends Component {
                 <Route exact path="/" component={Index} />
                 <Route exact path="/lyrics/track/:id" component={Leyrics} />
               </Switch>
+     <h3>Developed by - <a target="_blank" href="https://www.facebook.com/islam.rasel">S M Monjurul Islam</a></h3>
             </div>
           </React.Fragment>
         </Router>
