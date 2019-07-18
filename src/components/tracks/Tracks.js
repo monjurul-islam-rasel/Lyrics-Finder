@@ -9,6 +9,10 @@ import {
 import "react-notifications/lib/notifications.css";
 
 class Tracks extends Component {
+  
+  componentDidMount() {
+        console.log('Tracks : ' + Math.random());
+    }
 
   delItem = (track_id, dispatch) => {
     NotificationManager.error("Music Track Deleted");
